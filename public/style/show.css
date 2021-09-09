@@ -1,0 +1,147 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: cursive;
+  margin: 0;
+  padding: 0;
+}
+
+body > div.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body > div.container a {
+  display: block;
+  text-decoration: none;
+  width: 80%;
+  text-align: center;
+  background-color: rgba(225, 0, 0, 0.6);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 5px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+body > div.container a#all {
+  background-color: rgba(0, 225, 0, 0.8);
+}
+
+body > div.container h2 {
+  font-size: 35px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+body > div.container > div {
+  padding: 5px;
+  margin: 5px;
+  text-indent: 10px;
+}
+
+body > div.container > div::first-letter {
+  text-transform: capitalize;
+}
+
+body > div.container div#q {
+  background-color: rgba(0, 0, 200, 0.6);
+  width: 80%;
+  border-width: 0px 0px 0px 5px;
+  border-color: blue;
+  border-style: solid;
+  padding: 10px;
+  color: white;
+}
+
+body > div.container div#t {
+  background-color: rgba(0, 0, 200, 0.6);
+  width: 80%;
+  border: none;
+  padding: 10px;
+  color: white;
+}
+
+body > div.container h1 {
+  background-color: blue;
+  color: white;
+  width: 100%;
+  height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+}
+
+@media screen and (min-width: 599px) {
+  body > div.container a {
+    width: 60%;
+    padding: 10px;
+  }
+  body > div.container h2 {
+    font-size: 45px;
+    margin: 10px;
+  }
+  body > div.container div#q {
+    width: 40%;
+  }
+  body > div.container div#t {
+    width: 50%;
+    text-align: center;
+  }
+  body > div.container h1 {
+    height: 60vh;
+    font-size: 55px;
+  }
+}
+
+@media screen and (min-width: 917px) {
+  body > div.container a {
+    width: 35%;
+    padding: 16px;
+    border-radius: 30px;
+    font-size: 24px;
+  }
+  body > div.container h2 {
+    font-size: 52px;
+    margin: 13px;
+  }
+  body > div.container div#q {
+    width: 35%;
+  }
+  body > div.container div#t {
+    width: 30%;
+    text-align: center;
+  }
+  body > div.container h1 {
+    height: 70vh;
+    font-size: 60px;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  body > div.container h1 {
+    height: 83vh;
+    font-size: 70px;
+  }
+}
+/*# sourceMappingURL=show.css.map */

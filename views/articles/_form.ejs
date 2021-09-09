@@ -1,0 +1,31 @@
+<div>
+    <div>
+        <label for="title">Title</label>
+        <input required type="text" name="title" id="title" placeholder='a title'  value = '<%= article.title %>'/>
+    </div>
+    
+    <div>
+        <label for="body1">main body</label>
+        <textarea required type="text" name="body1" id="body1" required> <%= article.body1 %> </textarea>
+    </div>
+    
+    <div>
+        <label for="body2">body2</label>
+        <textarea type="text" name="body2" id="body2"  required> <%= article.body2 %> </textarea>
+    </div>
+    
+    <div>
+        <label for="body3">body3</label>
+        <textarea type="text" name="body3" id="body3"  required> <%= article.body3 %> </textarea>
+    </div>
+
+    <div>
+        <label for="title">quote</label>
+        <input type="text" name="quote" id="quote" placeholder="the quote..." value = '<%= article.quote %>' required/>
+    </div>
+    
+    <div id="but">
+        <a href="/">Cancel</a>
+        <button type="submit">Save</button>
+    </div>
+</div>

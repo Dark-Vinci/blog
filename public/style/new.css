@@ -1,0 +1,217 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: cursive;
+  margin: 0;
+  padding: 0;
+}
+
+body > div.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body > div.container h1 {
+  width: 100%;
+  height: 24vh;
+  background-color: blue;
+  margin: 0;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 30px;
+}
+
+body > div.container form {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  margin: 5px;
+}
+
+body > div.container form > div {
+  width: 100%;
+}
+
+body > div.container form > div > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5px;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+body > div.container form > div > div input {
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 30px;
+  text-align: center;
+  outline: none;
+  height: 50px;
+}
+
+body > div.container form > div > div textarea {
+  width: 100%;
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 20px;
+  text-align: center;
+  outline: none;
+}
+
+body > div.container form > div button {
+  width: 100%;
+  height: 50px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border-radius: 30px;
+}
+
+body > div.container form > div button:active, body > div.container form > div button:active {
+  background-color: white;
+  border: 2px solid black;
+}
+
+body > div.container form > div a {
+  display: block;
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(225, 0, 0, 0.6);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 10px;
+}
+
+@media screen and (min-width: 599px) {
+  body {
+    font-size: 30px;
+  }
+  body > div.container h1 {
+    height: 40vh;
+    font-size: 40px;
+  }
+  body > div.container form {
+    padding: 10px;
+    margin: 10px;
+  }
+  body > div.container form > div > div input {
+    width: 70%;
+  }
+  body > div.container form > div > div textarea {
+    width: 70%;
+  }
+  body > div.container form > div button {
+    width: 60%;
+  }
+  body > div.container form > div a {
+    width: 60%;
+    border-radius: 30px;
+  }
+  body div#but {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (min-width: 917px) {
+  body {
+    font-size: 30px;
+  }
+  body > div.container h1 {
+    height: 50vh;
+    font-size: 50px;
+  }
+  body > div.container form > div > div input {
+    width: 70%;
+  }
+  body > div.container form > div > div textarea {
+    width: 70%;
+  }
+  body > div.container form > div button {
+    width: 40%;
+  }
+  body > div.container form > div a {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  body > div.container h1 {
+    height: 60vh;
+    font-size: 60px;
+  }
+  body > div.container form > div > div input {
+    width: 65%;
+  }
+  body > div.container form > div > div textarea {
+    width: 65%;
+  }
+  body > div.container form > div button {
+    width: 25%;
+    font-size: 30px;
+  }
+  body > div.container form > div a {
+    width: 25%;
+  }
+}
+/*# sourceMappingURL=new.css.map */
